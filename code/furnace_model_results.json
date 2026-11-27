@@ -34,25 +34,25 @@
  },
  "3_energy_balance": {
   "Psteam_bara": 3.5,
-  "Tsat_C": 138.8571511256908,
-  "latent_kJkg": 2147.6974651897763,
-  "Q_econ_kW": 685.8180331249293,
-  "Q_boil_kW": 3074.297587589804,
-  "Q_steam_SH_kW": 188.18547895490164,
+  "Tsat_C": 138.85715112569653,
+  "latent_kJkg": 2147.6974651897585,
+  "Q_econ_kW": 685.8180331248813,
+  "Q_boil_kW": 3074.297587589779,
+  "Q_steam_SH_kW": 188.18547895489095,
   "Q_eth_preheat_kW": 716.4855000746986,
   "Tmix_C": 164.7962164157238,
   "Q_mixed_preheat_kW": 5880.824995435737,
-  "Q_feed_prep_kW": 10545.611595180071,
+  "Q_feed_prep_kW": 10545.611595179987,
   "Q_rad_kW": 11890.254133037968,
   "Q_rad_sensible_kW": 3019.1795820318584,
   "Q_rxn_at_COT_kW": 8871.07455100611,
-  "Q_total_kW": 22435.86572821804,
-  "GJ_per_t_C2H4": 12.923058659453591,
+  "Q_total_kW": 22435.865728217956,
+  "GJ_per_t_C2H4": 12.923058659453542,
   "effluent_cooling_1000_to_850_kW": 2421.242138324514,
   "dewpoint": {
    "yH2O": 0.4549167927382754,
    "pH2O_bar": 1.1372919818456886,
-   "T_dew_C": 103.24232733953892
+   "T_dew_C": 103.24232733955483
   }
  },
  "4_coil_sizing": {
@@ -269,39 +269,39 @@
    },
    {
     "bank": "Dilution steam superheater",
-    "duty_kW": 188.18547895490164,
+    "duty_kW": 188.18547895489095,
     "fg_in_C": 740.9426126404878,
-    "fg_out_C": 729.0813107725752,
+    "fg_out_C": 729.0813107725762,
     "process_C": "139 -> 200"
    },
    {
     "bank": "Ethane feed preheater",
     "duty_kW": 716.4855000746986,
-    "fg_in_C": 729.0813107725752,
-    "fg_out_C": 683.6573684585155,
+    "fg_in_C": 729.0813107725762,
+    "fg_out_C": 683.6573684585175,
     "process_C": "25 -> 150"
    },
    {
     "bank": "Dilution steam boiler",
-    "duty_kW": 3074.297587589804,
-    "fg_in_C": 683.6573684585155,
-    "fg_out_C": 482.98790053526386,
+    "duty_kW": 3074.297587589779,
+    "fg_in_C": 683.6573684585175,
+    "fg_out_C": 482.98790053526784,
     "process_C": "139 boiling"
    },
    {
     "bank": "Process water economizer",
-    "duty_kW": 685.8180331249293,
-    "fg_in_C": 482.98790053526386,
-    "fg_out_C": 436.77228204356743,
+    "duty_kW": 685.8180331248813,
+    "fg_in_C": 482.98790053526784,
+    "fg_out_C": 436.77228204357414,
     "process_C": "25 -> 139"
    }
   ],
-  "T_after_process_banks_C": 436.77228204356743,
+  "T_after_process_banks_C": 436.77228204357414,
   "Q_fg_above_150C_kW": 14629.356375040821,
-  "Q_surplus_kW": 4083.7447798607536,
-  "HP_steam_41bar_400C_kgh": 5308.352041444104,
-  "fraction_fired_used_process": 0.7882708077009929,
-  "fraction_fired_used_incl_HP_steam": 0.9317507533853187,
+  "Q_surplus_kW": 4083.744779860848,
+  "HP_steam_41bar_400C_kgh": 5308.352041444212,
+  "fraction_fired_used_process": 0.7882708077009899,
+  "fraction_fired_used_incl_HP_steam": 0.931750753385319,
   "stack_loss_kW": 1699.8606407432635,
   "wall_loss_kW": 242.6582476130198
  },
@@ -321,20 +321,20 @@
  },
  "7_1_electric": {
   "process_kW": {
-   "boiler": 3760.1156207147333,
-   "sheathed": 4078.3964297404596,
+   "boiler": 3760.1156207146605,
+   "sheathed": 4078.3964297404486,
    "joule_preheat": 2707.099544724878,
    "cracker": 11890.254133037968
   },
   "load_kW": {
-   "boiler": 3798.0965865805388,
-   "sheathed_heaters": 4204.5324017942885,
+   "boiler": 3798.096586580465,
+   "sheathed_heaters": 4204.532401794277,
    "joule_preheat_450_650": 2790.8242729122453,
    "cracker": 12924.18927504127,
-   "subtotal": 23717.64253632834,
-   "grid": 24201.6760574779,
-   "MWh_y": 193613.4084598232,
-   "MWh_per_t": 3.872268169196464
+   "subtotal": 23717.642536328254,
+   "grid": 24201.67605747781,
+   "MWh_y": 193613.40845982247,
+   "MWh_per_t": 3.8722681691964493
   },
   "efficiencies": {
    "boiler": 0.99,
@@ -407,25 +407,25 @@
  },
  "8_comparison": {
   "fired_LHV_MW": 28.462129396435063,
-  "grid_MW": 24.2016760574779,
+  "grid_MW": 24.20167605747781,
   "gas_radiant_eff": 0.41775701204307103,
   "elec_radiant_eff": 0.92,
-  "gas_overall_use": 0.7882708077009929,
-  "gas_overall_use_incl_steam": 0.9317507533853187,
+  "gas_overall_use": 0.7882708077009899,
+  "gas_overall_use_incl_steam": 0.931750753385319,
   "elec_overall_use": 0.9270376842882229,
   "grid_CO2_t_y": {
-   "0.37 t/MWh (US avg)": 71636.96113013459,
-   "0.35 (NG CCGT)": 67764.69296093812,
+   "0.37 t/MWh (US avg)": 71636.96113013431,
+   "0.35 (NG CCGT)": 67764.69296093786,
    "0": 0.0
   },
-  "primary_fuel_CCGT55_MW": 44.00304737723254,
+  "primary_fuel_CCGT55_MW": 44.00304737723238,
   "gas_cost_USD_y_HHV": 3017312.238908946,
   "gas_cost_USD_y_LHV": 2719157.99401782,
-  "power_cost_USD_y": 13552938.592187624,
-  "CO2_price_to_close_gap_USD_t": 234.38785301806442,
-  "breakeven_grid_intensity_t_MWh": 0.23216130080685896,
-  "breakeven_power_price_USD_MWh": 15.584211149999303,
-  "breakeven_power_price_LHV_4USD": 16.050588441891033
+  "power_cost_USD_y": 13552938.592187572,
+  "CO2_price_to_close_gap_USD_t": 234.38785301806325,
+  "breakeven_grid_intensity_t_MWh": 0.23216130080685982,
+  "breakeven_power_price_USD_MWh": 15.584211149999362,
+  "breakeven_power_price_LHV_4USD": 16.050588441891094
  },
  "9_bonus": {
   "air_preheat": [
@@ -435,9 +435,9 @@
     "fuel_saved_pct": 0.0,
     "Q_aph_kW": 0.0,
     "fg_avail_above_150_kW": 14629.356375040821,
-    "need_kW": 10545.611595180071,
+    "need_kW": 10545.611595179987,
     "feasible": true,
-    "fuel_eff": 0.7882708077009929
+    "fuel_eff": 0.7882708077009899
    },
    {
     "T_air_C": 100,
@@ -445,9 +445,9 @@
     "fuel_saved_pct": 6.829336128913388,
     "Q_aph_kW": 828.5973687012026,
     "fg_avail_above_150_kW": 13630.268454692658,
-    "need_kW": 11374.208963881274,
+    "need_kW": 11374.20896388119,
     "feasible": true,
-    "fuel_eff": 0.8460504357805855,
+    "fuel_eff": 0.8460504357805823,
     "APH_flue_in_C": 214.10792610066164
    },
    {
@@ -456,9 +456,9 @@
     "fuel_saved_pct": 14.685697148896537,
     "Q_aph_kW": 1781.802767563373,
     "fg_avail_above_150_kW": 12480.933402969542,
-    "need_kW": 12327.414362743444,
+    "need_kW": 12327.41436274336,
     "feasible": true,
-    "fuel_eff": 0.9239609084970648,
+    "fuel_eff": 0.9239609084970614,
     "APH_flue_in_C": 299.114497672422
    },
    {
@@ -467,9 +467,9 @@
     "fuel_saved_pct": 21.419009273420887,
     "Q_aph_kW": 2598.7496279476627,
     "fg_avail_above_150_kW": 11495.893176429037,
-    "need_kW": 13144.361223127733,
+    "need_kW": 13144.36122312765,
     "feasible": false,
-    "fuel_eff": 1.003131673974135,
+    "fuel_eff": 1.0031316739741312,
     "APH_flue_in_C": 383.7564646079376
    },
    {
@@ -478,16 +478,16 @@
     "fuel_saved_pct": 27.271610400004022,
     "Q_aph_kW": 3308.840594624991,
     "fg_avail_above_150_kW": 10639.695300411542,
-    "need_kW": 13854.452189805063,
+    "need_kW": 13854.452189804979,
     "feasible": false,
-    "fuel_eff": 1.083855715816697,
+    "fuel_eff": 1.083855715816693,
     "APH_flue_in_C": 468.22503820060865
    }
   ],
   "fuel_preheat_200C_kW": 247.73808167949215,
   "quench_850_to_600_kW": 3753.304493766548,
-  "dilution_water_heat_kW": 3760.1156207147333,
-  "grid_with_quench_steam_kW": 20326.067295661025,
+  "dilution_water_heat_kW": 3760.1156207146605,
+  "grid_with_quench_steam_kW": 20326.067295661007,
   "quench_recoverable_kW": {
    "850->600": 3753.304493766548,
    "850->500": 5139.1590422009285,
